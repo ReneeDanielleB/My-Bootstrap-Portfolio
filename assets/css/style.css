@@ -1,18 +1,43 @@
 header {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    height: 80px;
+    background-color: orchid;
+}
+
+.nav-item {
+    color: azure;
+}
+
+.jumbotron {
+    background-color: azure;
+}
+
+.container{
+    height: 450px;
 }
 
 .hero-text {
     display: flex;
 }
 
-footer {
-    margin: 0;
+.card-body {
+    background-color: orchid;
 }
 
-footer p {
-    font-size: ;
+.card {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.card-text {
+    font-size: 15px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .copyright {

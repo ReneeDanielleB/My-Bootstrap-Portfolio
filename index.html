@@ -8,27 +8,53 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <!--Bootstrap CDN-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <title>RenDanielleB//Web Developer</title>
+    <!--Bootstrap Icons CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>ReneeDanielleB//Web Developer</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <div>
-                <h1></h1>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">Renee Danielle B.</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Get To Know Me! <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">My Works</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Upcoming Projects</a>
+                </li>
+              </ul>
             </div>
-            <div>
-                <ul></ul>
-            </div>
+
         </nav>
     </header>
 
     <!--Hero Banner-->
+    <section class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h2 class="display-4">Front End Web Developer</h2>
+          <p class="lead">Get To Know Me</p>
+        </div>
+    </section>
+
     <section class="hero banner">
         <img></img>
 
         <div>
-            <h2>placeholder</h2>
+            <h2>About Me</h2>
         </div>
     </section>
 
@@ -37,7 +63,7 @@
         <img></img>
 
         <div>
-            <h2>placeholder</h2>
+            <h2>My Work</h2>
         </div>
     </section>
 
@@ -46,19 +72,23 @@
         <img></img>
 
         <div>
-            <h2>placeholder</h2>
+            <h2>Upcoming Projects</h2>
         </div>
     </section>
 
     <!--Footer-->
-    <footer>
-        <h2>Contact Me</h2>
-        <p>LinkedIn</p>
-        <p>Email</p>
-        <p>GitHub</p>
-        
+    <footer class="card">
+        <div class="card-body">
+              <h4 class="card-title">Contact Me</h4>
+              <p class="card-text">LinkedIn</p>
+              <p class="card-text">Email</p>
+              <p class="card-text">GitHub</p>
+            </div>
+
         <div class="copyright">&copy; Made by ReneeDanielleB &hearts;</div>
     </footer>
+
+
 </body>
 
 </html>

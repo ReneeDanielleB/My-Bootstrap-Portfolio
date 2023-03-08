@@ -1,0 +1,16 @@
+header {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-text {
+    display: flex;
+}
+
+footer {
+    margin: 0;
+}
+
+footer p {
+    font-size: ;
+}

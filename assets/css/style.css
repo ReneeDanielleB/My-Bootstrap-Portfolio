@@ -14,3 +14,8 @@ footer {
 footer p {
     font-size: ;
 }
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}

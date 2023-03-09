@@ -32,15 +32,43 @@ header {
     background-position: relative; 
     background-color: #ffff; 
     background-repeat: no-repeat; 
-    height: 750px;
+    height: 700px;
     width: 100%; 
     display: flex; 
     align-items: center; 
     justify-content: center;
 }
 
+.hero-banner {
+    height: 200px;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin: 5px;
+    margin-bottom: 0px;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+}
+
+.card-body {
+    height: 250px;
+    margin-top: 0.5px;
+    margin-bottom: 0px;
+}
+
 .hero-text {
     display: flex;
+}
+
+.info {
+    margin-top: 175px;
+    margin-bottom: 10px;
+}
+
+.projects {
+    margin-bottom: 0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -57,7 +85,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .row {
-
 }
 
 .card {

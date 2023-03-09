@@ -2,15 +2,20 @@ header {
     margin: 0px;
     padding: 0px;
     height: 80px;
-    background-color: orchid;
+    background-color: whitesmoke;
 }
 
 .nav-item {
-    color: azure;
+    color: black;
 }
 
 .jumbotron {
-    background-color: azure;
+    margin-top: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    width: 100%;
+    background-color: orchid;
 }
 
 .container{
@@ -35,9 +40,8 @@ header {
 .card-text {
     font-size: 15px;
     color: black;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    display: inline-flex;
+    justify-content: space-around;
 }
 
 .copyright {

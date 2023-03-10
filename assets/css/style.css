@@ -112,8 +112,8 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-around;
 }
 
-.btn {
-    display: inline;
+a .btn {
+    text-align: center;
 }
 
 footer {

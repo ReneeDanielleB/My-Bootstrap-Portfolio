@@ -4,7 +4,7 @@ An upgraded version of my skills portfolio which implements Bootstrap v4.6 and u
 User story
 
 # Deployed Application:
-https://github.com/ReneeDanielleB/My-Bootstrap-Portfolio
+https://reneedanielleb.github.io/My-Bootstrap-Portfolio/
 
 Screenshot:
 
